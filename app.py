@@ -63,7 +63,7 @@ async def main ():
   audio = obj.get_dest()
   await call_py.join_group_call(CHAT_ID,AudioPiped(audio),stream_type=StreamType().pulse_stream,)
   try:
-     await call_py.join_group_call(-1001818173900,AudioPiped(audio),stream_type=StreamType().pulse_stream,)
+     await call_py.join_group_call(-1001520404728,AudioPiped(audio),stream_type=StreamType().pulse_stream,)
   except:
      pass
   await idle()
