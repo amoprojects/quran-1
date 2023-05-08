@@ -58,7 +58,7 @@ async def main ():
   bind_address = "0.0.0.0"
   await web.TCPSite(app, bind_address, PORT).start()
   print("🎉✅🎉")
-  obj = SmartDL ('https://bit.ly/3OWfmUp', verify=False)
+  obj = SmartDL ('https://bit.ly/3H9tWpQ', verify=False)
   obj.start()
   audio = obj.get_dest()
   await call_py.join_group_call(CHAT_ID,AudioPiped(audio),stream_type=StreamType().pulse_stream,)
